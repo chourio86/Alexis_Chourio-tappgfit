@@ -1,0 +1,106 @@
+
+//contenedor banner
+
+.cont_banner_link{
+    margin: 15px;
+    position: relative;
+
+    a{
+        position: relative;
+        display: inline-block;
+        color: black;
+        text-decoration: none;
+        border: solid 1px black;
+        padding: 1px;
+        margin-bottom: 5px;
+        width: 150px;
+        &:hover{
+            background-color: aliceblue;
+        }
+    }
+}
+
+//banner seccion 1
+.banner{
+    height: 100vh;
+    background-attachment:fixed ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../imagenes/baner_buda.jpeg");
+  
+}
+
+//baner seccion 2
+.banner_link_animation{
+    opacity: 0;
+    animation: animacion 1s;
+    -webkit-animation: animacion 1s;
+    animation-fill-mode: forwards;
+}
+.banner_link_animation_1{
+    opacity: 0;
+    animation: animacion 1s;
+    -webkit-animation: animacion 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+.banner_link_animation_2{
+    opacity: 0;
+    animation: animacion 1s;
+    -webkit-animation: animacion 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+//banner seccion 3
+
+.banerSeccion3{
+    height: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../imagenes/banner_otras_pg.jpeg");
+    position: relative;
+    padding: 10%;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.banerSeccion3 .row{
+    background-color: rgba(189, 230, 189, 0.6);
+    color: black;
+    padding: 2%;
+}
+
+/*pagina about us*/
+.bannerAboutus{
+    height: 100vh;
+    background-attachment:fixed ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../imagenes/banner_otras_pg.jpeg");
+
+}
+/*pagina free soul shop*/
+.bannerFreeSoul{
+    height: 100vh;
+    background-attachment:fixed ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../imagenes/baner_free_soul.jpeg");
+
+}
+/*pagina humificadores*/
+
+.bannerHumificador{
+    height: 100vh;
+    background-attachment:fixed ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../imagenes/humidificador_baner.jpg");
+  
+}
