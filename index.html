@@ -124,7 +124,7 @@
             </div>
         </div>
     </section>
-
+<!--Carrusel de imagenes -->
     <section>
         <div class="container">
             <div class="row text-center">
@@ -137,14 +137,16 @@
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img src="./imagenes/slider1.jpeg" class=" w-80 text-center" alt="...">
+                      <img srcset="./imagenes/slider1.jpeg 800w, slider1320.jpg 320w"
+                          sizes="(max-width:600px) 320px, 800px" >
+                      
                       </div>
                       <div class="carousel-item">
-                        <img src="./imagenes/silider2.jpeg" class=" w-80" alt="...">
+                        <img srcset="./imagenes/silider2.jpeg 800w, slider2_320.jpg 320w" sizes="(max-width:600px) 320px, 800px">
                       </div>
                       
                       <div class="carousel-item">
-                        <img src="./imagenes/slider.jpeg" class=" w-80" alt="...">
+                        <img srcset="./imagenes/slider.jpeg 800w, slider_320.jpg 320w" sizes="(max-width:600px) 320px, 800px" >
                       </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
