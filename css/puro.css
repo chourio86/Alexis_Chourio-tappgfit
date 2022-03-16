@@ -31,8 +31,7 @@ hr {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("../imagenes/baner_buda.jpeg"); }
+  background-size: cover; }
 
 .banner_link_animation {
   opacity: 0;
